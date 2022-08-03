@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="go build windows 32" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="stoc-cli" />
+    <working_directory value="$PROJECT_DIR$" />
+    <envs>
+      <env name="GOOS" value="windows" />
+      <env name="GOARCH" value="386" />
+    </envs>
+    <kind value="PACKAGE" />
+    <package value="github.com/kranzuft/stoc-cli/cmd/com/nodlim/stoc-cli" />
+    <directory value="$PROJECT_DIR$" />
+    <output_directory value="$PROJECT_DIR$/bin/windows/386" />
+    <option name="run" value="false" />
+    <method v="2" />
+  </configuration>
+</component>

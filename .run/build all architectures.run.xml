@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name="build all architectures" type="CompoundRunConfigurationType">
+        <toRun name="go build darwin 64" type="GoApplicationRunConfiguration"/>
+        <toRun name="go build windows 64" type="GoApplicationRunConfiguration"/>
+        <toRun name="go build linux 32" type="GoApplicationRunConfiguration"/>
+        <toRun name="go build linux 64" type="GoApplicationRunConfiguration"/>
+        <toRun name="go build windows 32" type="GoApplicationRunConfiguration"/>
+        <method v="2"/>
+    </configuration>
+</component>

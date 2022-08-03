@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="go build darwin 64" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="stoc-cli" />
+    <working_directory value="$PROJECT_DIR$" />
+    <envs>
+      <env name="GOOS" value="darwin" />
+      <env name="GOARCH" value="amd64" />
+    </envs>
+    <kind value="PACKAGE" />
+    <package value="github.com/kranzuft/stoc-cli/cmd/com/nodlim/stoc-cli" />
+    <directory value="$PROJECT_DIR$" />
+    <output_directory value="$PROJECT_DIR$/bin/darwin/amd64" />
+    <option name="run" value="false" />
+    <method v="2" />
+  </configuration>
+</component>
